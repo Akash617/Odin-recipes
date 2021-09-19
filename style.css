@@ -1,19 +1,42 @@
 /* style.css */
 
 * {
-  color: white;
-  background-color: rgb(80, 80, 80);
+  color: rgb(80, 80, 80);
+  background-color:white;
   font-family: "Times New Roman", sans-serif;
   font-size: 22px;
+  box-sizing: border-box;
+  text-align: center;
 }
 
 h1 {
-  font-size: 32px;
+  font-size: 38px;
 }
 
 h3 {
-  font-size: 25px;
+  font-size: 32px;
+}
+
+.title {
   font-weight: 1000;
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.ulist {
+}
+
+.olist {
+}
+
+li {
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 img {
