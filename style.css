@@ -1,0 +1,17 @@
+/* style.css */
+
+* {
+  color: white;
+  background-color: rgb(80, 80, 80);
+  font-family: "Times New Roman", sans-serif;
+  font-size: 22px;
+}
+
+h3 {
+  font-weight: 1000;
+}
+
+img {
+  height: auto;
+  width: 250px;
+}
